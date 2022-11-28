@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    position: relative;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-right: 20px;
+    align-items: center;
+    background-color: black;
+    color: goldenrod;
+    width: 100%;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+.head h1 {
+    font-size: 50px;
+    padding-left: 15px;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    font-size: x-large;
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: blanchedalmond;
+    padding-left: 10px;
+}
+
+.row1 img {
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.row1 div {
+    z-index: 3;
+    margin-top: 0px;
+    position: absolute;
+    color: beige;
+}
+
+#overlap {
+    background-color: rgba(0, 0, 0, 0.549);
+    position: absolute;
+    z-index: 2;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.row2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.row2 p {
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+    align-self: center;
+    height: 400px;
+    margin: 5px;
+    width: 30%;
+    box-shadow: 0px 0px 5px grey;
+}
+
+.row2 img {
+    width: 70%;
+    height: 400px;
+}
+
+.line {
+    border-bottom: 2px solid rgb(160, 158, 158);
+    margin: 5px;
+    width: 98%;
+}
+
+.contact1 {
+    background: url(/images/notary-public2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact1 h2 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 80%;
+    height: auto;
+    border-radius: 40px;
+    padding: 20px;
+    color: antiquewhite;
+}
+
+footer {
+    margin-top: auto;
+}
+
+#hom:hover {
+    background-color: rgba(218, 165, 32, 0.505);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#abou:hover {
+    background-color: rgba(218, 165, 32, 0.505);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#cont:hover {
+    background-color: rgba(218, 165, 32, 0.505);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
